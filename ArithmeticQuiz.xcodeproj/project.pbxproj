@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE073DF81D3832C500D84433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE073DF71D3832C500D84433 /* AppDelegate.swift */; };
+		DE073DFA1D3832C500D84433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE073DF91D3832C500D84433 /* ViewController.swift */; };
+		DE073DFF1D3832C500D84433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE073DFE1D3832C500D84433 /* Assets.xcassets */; };
+		DE073E021D3832C500D84433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE073E001D3832C500D84433 /* LaunchScreen.storyboard */; };
+		DE073E0A1D3832F300D84433 /* trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE073E091D3832F300D84433 /* trivia.swift */; };
+		DE073E0C1D38330900D84433 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE073E0B1D38330900D84433 /* Sounds.swift */; };
+		DE073E0E1D38333000D84433 /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE073E0D1D38333000D84433 /* GameSound.wav */; };
+		DE073E101D38333D00D84433 /* correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE073E0F1D38333D00D84433 /* correct.wav */; };
+		DE073E121D38334800D84433 /* incorrect.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE073E111D38334800D84433 /* incorrect.wav */; };
+		DE073E141D38335500D84433 /* gameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = DE073E131D38335500D84433 /* gameOver.wav */; };
+		DE073E161D38337200D84433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE073E151D38337200D84433 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE073DF41D3832C500D84433 /* ArithmeticQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArithmeticQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE073DF71D3832C500D84433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE073DF91D3832C500D84433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE073DFE1D3832C500D84433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE073E011D3832C500D84433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE073E031D3832C500D84433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE073E091D3832F300D84433 /* trivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trivia.swift; sourceTree = "<group>"; };
+		DE073E0B1D38330900D84433 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		DE073E0D1D38333000D84433 /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameSound.wav; sourceTree = "<group>"; };
+		DE073E0F1D38333D00D84433 /* correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct.wav; sourceTree = "<group>"; };
+		DE073E111D38334800D84433 /* incorrect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = incorrect.wav; sourceTree = "<group>"; };
+		DE073E131D38335500D84433 /* gameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOver.wav; sourceTree = "<group>"; };
+		DE073E151D38337200D84433 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE073DF11D3832C500D84433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE073DEB1D3832C500D84433 = {
+			isa = PBXGroup;
+			children = (
+				DE073DF61D3832C500D84433 /* ArithmeticQuiz */,
+				DE073DF51D3832C500D84433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE073DF51D3832C500D84433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE073DF41D3832C500D84433 /* ArithmeticQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE073DF61D3832C500D84433 /* ArithmeticQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				DE073DF71D3832C500D84433 /* AppDelegate.swift */,
+				DE073DF91D3832C500D84433 /* ViewController.swift */,
+				DE073E091D3832F300D84433 /* trivia.swift */,
+				DE073E0B1D38330900D84433 /* Sounds.swift */,
+				DE073E151D38337200D84433 /* Main.storyboard */,
+				DE073DFE1D3832C500D84433 /* Assets.xcassets */,
+				DE073E001D3832C500D84433 /* LaunchScreen.storyboard */,
+				DE073E031D3832C500D84433 /* Info.plist */,
+				DE073E0D1D38333000D84433 /* GameSound.wav */,
+				DE073E0F1D38333D00D84433 /* correct.wav */,
+				DE073E111D38334800D84433 /* incorrect.wav */,
+				DE073E131D38335500D84433 /* gameOver.wav */,
+			);
+			path = ArithmeticQuiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE073DF31D3832C500D84433 /* ArithmeticQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE073E061D3832C500D84433 /* Build configuration list for PBXNativeTarget "ArithmeticQuiz" */;
+			buildPhases = (
+				DE073DF01D3832C500D84433 /* Sources */,
+				DE073DF11D3832C500D84433 /* Frameworks */,
+				DE073DF21D3832C500D84433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArithmeticQuiz;
+			productName = ArithmeticQuiz;
+			productReference = DE073DF41D3832C500D84433 /* ArithmeticQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE073DEC1D3832C500D84433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jacob Virgin";
+				TargetAttributes = {
+					DE073DF31D3832C500D84433 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DE073DEF1D3832C500D84433 /* Build configuration list for PBXProject "ArithmeticQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE073DEB1D3832C500D84433;
+			productRefGroup = DE073DF51D3832C500D84433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE073DF31D3832C500D84433 /* ArithmeticQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE073DF21D3832C500D84433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE073E0E1D38333000D84433 /* GameSound.wav in Resources */,
+				DE073E021D3832C500D84433 /* LaunchScreen.storyboard in Resources */,
+				DE073DFF1D3832C500D84433 /* Assets.xcassets in Resources */,
+				DE073E161D38337200D84433 /* Main.storyboard in Resources */,
+				DE073E141D38335500D84433 /* gameOver.wav in Resources */,
+				DE073E101D38333D00D84433 /* correct.wav in Resources */,
+				DE073E121D38334800D84433 /* incorrect.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE073DF01D3832C500D84433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE073DFA1D3832C500D84433 /* ViewController.swift in Sources */,
+				DE073DF81D3832C500D84433 /* AppDelegate.swift in Sources */,
+				DE073E0A1D3832F300D84433 /* trivia.swift in Sources */,
+				DE073E0C1D38330900D84433 /* Sounds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE073E001D3832C500D84433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE073E011D3832C500D84433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE073E041D3832C500D84433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE073E051D3832C500D84433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE073E071D3832C500D84433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArithmeticQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virgin.exposure.ArithmeticQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE073E081D3832C500D84433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArithmeticQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.virgin.exposure.ArithmeticQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE073DEF1D3832C500D84433 /* Build configuration list for PBXProject "ArithmeticQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE073E041D3832C500D84433 /* Debug */,
+				DE073E051D3832C500D84433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE073E061D3832C500D84433 /* Build configuration list for PBXNativeTarget "ArithmeticQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE073E071D3832C500D84433 /* Debug */,
+				DE073E081D3832C500D84433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE073DEC1D3832C500D84433 /* Project object */;
+}
